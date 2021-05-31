@@ -1,0 +1,27 @@
+{
+	"name": "pessek/hypestaticpages",
+	"type": "elgg-plugin",
+	"description": "Static page creator",
+	"keywords": [
+		"elgg", "plugin", "pages", "content", "static", "privacy", "about"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeStaticPages"
+	},
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
